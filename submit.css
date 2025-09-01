@@ -1,0 +1,29 @@
+ .top-nav {
+    margin-bottom: 20px; background: #e0f7fa; padding: 0; font-family: "Segoe UI", sans-serif;
+}
+.top-nav-link {
+    display:block; padding:18px 0; color:#00838f; text-decoration:none; font-weight:bold; font-family: "Segoe UI", sans-serif;
+}
+
+.top-nav-list {
+    list-style: none; display: flex; justify-content: space-between; align-items: center; margin: 0;
+}
+ 
+ 
+ 
+ header {
+      background-color: #00838f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }

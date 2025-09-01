@@ -1,0 +1,81 @@
+.top-nav {
+    margin-bottom: 20px; background: #e0f7fa; padding: 0; font-family: "Segoe UI", sans-serif;
+}
+.top-nav-link {
+    display:block; padding:18px 0; color:#00838f; text-decoration:none; font-weight:bold; font-family: "Segoe UI", sans-serif;
+}
+
+.top-nav-list {
+    list-style: none; display: flex; justify-content: space-between; align-items: center; margin: 0;
+}
+
+
+
+
+
+
+body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: white;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #00838f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .bio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .bio img {
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .bio div {
+      flex: 1;
+    }
+
+    h2 {
+      color: #005f99;
+    }
+
+    .fun-facts ul {
+      padding-left: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .photo-grid {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .photo-grid img {
+      width: 250px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
