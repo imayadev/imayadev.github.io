@@ -44,3 +44,79 @@ body {
       margin: 0;
       padding: 0;
     }
+
+    .container {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Article card */
+.post {
+  padding-bottom: 2rem;
+}
+
+.post-header {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1rem;
+}
+
+.post-eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: var(--badge-bg);
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  margin: 0 0 0.5rem 0;
+}
+
+.post-title {
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+  line-height: 1.2;
+  margin: 0.25rem 0 0.5rem 0;
+  color: var(--accent);
+}
+
+.post-meta {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.post-meta .author {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.post-body p {
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+/* Footer & back link */
+.post-footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+}
+
+.back-link {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Site footer */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
