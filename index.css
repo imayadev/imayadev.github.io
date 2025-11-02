@@ -9,6 +9,20 @@
   font-weight: bold;
   font-family: "Segoe UI", sans-serif;
   white-space: nowrap;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.top-nav-link:visited {
+  color: #00838f;
+  text-decoration: none;
+}
+
+.top-nav-link:hover,
+.top-nav-link:focus {
+  background: #b2ebf2;
+  color: #006064;
+  text-decoration: none;
 }
 
 .top-nav-list {
@@ -23,8 +37,7 @@
   box-sizing: border-box;
 }
 
-
-
+/* Hero section styles */
 .hero-section {
   position: relative;
   width: 100%;
