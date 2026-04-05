@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Aid - a Milestone for Satellite Television | Lab Notes</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <nav class="top-nav">
+    <ul class="top-nav-list">
+      <li><a href="../index.html" class="top-nav-link">Home</a></li>
+      <li><a href="../about-us.html" class="top-nav-link">About Us</a></li>
+      <li><a href="../articles.html" class="top-nav-link">Articles</a></li>
+      <li><a href="../submit-your-work.html" class="top-nav-link">Submit Your Work</a></li>
+      <li><a href="../competition.html" class="top-nav-link">Competition</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <article class="post">
+
+      <header class="post-header">
+
+        <!-- Topics -->
+        <p class="post-eyebrow">Technology • Broadcasting</p>
+
+        <!-- Title -->
+        <h1 class="post-title">Live Aid - a Milestone for Satellite Television</h1>
+
+        <!-- Author + Age + Category + Date -->
+        <p class="post-meta">
+          By <span class="author">Kerry Amoils</span>
+          <span aria-hidden="true">·</span>
+          Age 17 (Senior Category)
+          <span aria-hidden="true">·</span>
+           <span class="school">Dame Alice Owen's School</span>
+           <span aria-hidden="true">·</span>
+          <time datetime="2026-03-25">25th March 2026</time>
+        </p>
+
+      </header>
+
+    
+
+      <div class="post-body">
+        <p>For many, Live Aid sparks images of Freddie Mercury with a captivated crowd at his
+fingertips, or of a grand line up of 1980s stars united on stage for the finale ‘Do They
+Know it’s Christmas’. However, the technological accomplishments of the renowned
+charity concert are sometimes overlooked. Broadcasting the event to 1.9bn people
+across 150 countries (a viewing figure made up of nearly 40% of the world’s
+population!) was demanding on equipment of the time. The ability to view the ‘super
+concert’ in more remote regions, including parts of the Soviet Union, was due to the
+use of satellite television. Live Aid was the most ambitious international satellite TV
+event ever staged at the time - so how are performances able to reach our homes?</p>
+        <p>A television signal’s journey begins at a ground station on Earth, within an antenna.
+This location was Philadelphia, in the field behind JFK stadium which had been
+colonised entirely by satellite dishes and trailers. An alternating current is applied to
+the antenna, causing electrons in the metal to accelerate back and forth. These
+oscillations generate magnetic fields and electric fields perpendicular to them, which
+will ‘detach’ from the antenna as electromagnetic waves; radio waves. Information
+can be encoded into the radio waves through either amplitude modulation or more
+commonly, frequency modulation - hence the term ‘FM radio’.</p>
+        <p>We now have our uplink signal, heading towards a geostationary satellite. These
+satellites are in geostationary orbit, a path 35800km in altitude above the Earth. The
+orbit is sometimes referred to as the ‘Clarke orbit’, and the satellites along it as the
+‘Clarke belt’ after Arthur C Clarke who popularised the concept in the Wireless World
+Magazine (1945). It is at this distance that the satellite’s orbital period matches that
+of the Earth, so they remain stationary in comparison to the antennas on Earth.
+These satellites are also equipped with small engines known as thrusters, producing
+small amounts of force to keep the satellite in the correct orientation, countering the
+gravitational pull of both the sun and moon. The satellite transponders receive the
+uplink at a certain frequency and amplify them. The downlink signal is transmitted at
+a lower frequency back to Earth, over a broader ‘footprint’ area. To broadcast the
+performances from both locations to viewers worldwide, Live Aid employed a
+groundbreaking 13 satellites, 5 of these operated by Intelsat who still deliver
+channels to approximately 2.3bn people globally.</p>
+<p>Satellite dishes on the ground are placed to receive the downlink signal. The dishes
+are parabolic antennas, a shape chosen not just for aesthetic purposes but for its
+ability to reflect all detected signals towards a specific focal point. As the signal
+picked up by the dishes is very weak, it must be amplified by a low noise block
+downconverter. This is a type of receiver which acts as:</p>
+<ul>
+  <li>A frequency mixer - a circuit that outputs frequencies differing from the input
+frequencies.</li>
+<li>A local oscillator - a circuit used to produce alternating current.</li>
+</ul>
+
+<p>These circuits work in conjunction with one another as a converter, while adding as
+little noise to the signal as possible. Minimising the additional noise was vital to the
+effective broadcast of Live Aid - how else would one have been able to appreciate
+the fine vocals and the powerful violin solo of Ultravox’s ‘Vienna’? Now, the signal
+can be sent through the focal point of the parabola (the feedhorn) and further
+through the coaxial cable to home satellite receivers. Here, the signal will be
+decoded as specific data from the broader transmission is selected.</p>
+<p>It is due to these satellite communications that we are still able to enjoy live concerts
+from the leisure of our own living rooms, with seemingly no isolation from the in-
+person event. However, the sheer distance which the signal must travel across can
+provide some obstacles, particularly to those as ambitious as the stars of Live Aid.
+Electromagnetic waves have the endlessly useful capability of travelling at the speed
+of light; nothing else is known to exceed these parameters. Although, the distance
+crossed is vast enough to result in a delay of seconds between the real occasion and
+the experience behind the television screen. For instance, synchronisation problems
+prevented David Bowie and Mick Jagger from performing a transatlantic duet.</p>
+<p>It was not the satellite link up alone which highlighted the technological expertise
+allowing Live Aid to function. The concert was a showcase of all forms of
+achievements within engineering. It could not have run so seamlessly without the
+civil engineers who designed the revolving stage so different bands could set up and
+perform simultaneously, the sound engineers upholding the quality of each act, and
+even the mechanical engineers who designed the Concorde taken by Phil Collins,
+fulfilling his aim to perform in both the US and UK venues on the day. This is just one
+example to prove that neither the Arts nor STEM sit on a pedestal compared to one
+another. Both industries work hand in hand to provide us with top quality
+entertainment; events treasured for years to come.</p>
+
+
+      </div>
+
+      <footer class="post-footer">
+        <a class="back-link" href="../articles.html">← Back to Articles</a>
+      </footer>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Lab Notes</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

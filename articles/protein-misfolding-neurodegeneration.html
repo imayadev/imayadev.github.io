@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How does protein misfolding cause neurodegeneration? | Lab Notes</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <nav class="top-nav">
+    <ul class="top-nav-list">
+      <li><a href="../index.html" class="top-nav-link">Home</a></li>
+      <li><a href="../about-us.html" class="top-nav-link">About Us</a></li>
+      <li><a href="../articles.html" class="top-nav-link">Articles</a></li>
+      <li><a href="../submit-your-work.html" class="top-nav-link">Submit Your Work</a></li>
+      <li><a href="../competition.html" class="top-nav-link">Competition</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <article class="post">
+
+      <header class="post-header">
+
+        <!-- Topics -->
+        <p class="post-eyebrow">Biology • Neurology</p>
+
+        <!-- Title -->
+        <h1 class="post-title">How does protein misfolding cause neurodegeneration?</h1>
+
+        <!-- Author + Age + Category + Date -->
+        <p class="post-meta">
+          By <span class="author">Isha Shekhar</span>
+          <span aria-hidden="true">·</span>
+          Age 16 (Senior Category)
+          <span aria-hidden="true">·</span>
+           <span class="school">The Henrietta Barnett School</span>
+           <span aria-hidden="true">·</span>
+          <time datetime="2026-03-01">March 1st, 2026</time>
+        </p>
+
+      </header>
+
+    
+
+      <div class="post-body">
+        <p>The shape of a protein is the most essential component of the molecule; proteins can be seen as keys to a lock: if their precisely folded 3D shape changes, they are unable to ‘fit’ their target, and can become toxic, cascading into neurodegeneration when associated with the brain. </p>
+        <p>Such neurodegenerative diseases, named ‘proteinopathies’, are caused by the structural misfolding, accumulation, and aggregation of proteins, leading to cellular toxicity and dysfunction. Common proteinopathies include Alzheimer's, Parkinson’s, CJD, and Huntington's disease. Proteins, such as amyloid-beta, alpha-synuclein, prions and huntingtin misfold, forming toxic aggregates, leading to these diseases respectively. People with these diseases often experience cognitive, mobility and psychiatric decline, impairing quality of life and social relationships, and often leading to death.</p>
+        <h3>What exactly causes the misfolding?</h3>
+        <p>It is difficult to pin-point each disease to a specific cause, however, either one of, or a combination of aging, genetics and cellular environment can contribute to the cause. You may have noticed that the diseases listed above often occur in the elderly, presuming aging to be the leading factor. While this is true, aging intrinsically links to both genetics and cellular environment factors, with the latter arguably being the most direct and common cause. </p>
+        <h3>What do I mean by cellular environmental factors?</h3>
+        <p>Proteins are carefully constructed within the cell, with key organelles such as the endoplasmic reticulum (ER), golgi apparatus, mitochondrion crafting its precise shape. Factors, such a ‘stress’ or dysfunctional mechanism can disrupt the process itself, and the regulation of it, producing misfolded proteins which accumulate. Stresses include abnormalities in substances, such as too much calcium or reactive oxygen species (ROS), damaging key components, such as the ER in this example. </p>
+        <h3>How is aging and genetics linked?</h3>
+        <p>While such stresses and disruptions are common, our bodies often have regulatory mechanisms, called proteostasis, that can prevent, reverse or minimise the damage caused. In the case of misfolded proteins, autophagy, which is the ‘self eating’ process of breaking down damaged proteins, and the function of chaperone proteins, which identify such damaged proteins, perform proteostasis. However, as a person grows older, their cell’s quality control is reduced, chaperone and autophagy processes become compromised, and accumulation of metabolic byproducts over time result in the inefficiency of proteostasis, ensuing stress-caused misfolded protein accumulation. Certain genes and mutations may reduce efficiency of proteostasis, or make one more susceptible to improperly folded proteins. In this way, genes and aging can be seen as indirect causes of protein misfolding, ones that augment cellular environmental factors, which are the direct biochemical causes to it.</p>
+        <h3>How do misfolded protein accumulates cause neurodegeneration?</h3>
+        <p>Protein aggregates can quickly cascade into destruction of neurons and signalling function, causing neurodegeneration. The brain consists of billions of delicate neurons, which act as a network to relay information, in the form of electric signals, throughout the brain, coordinating all functions and responses of the body. The aggregates can block the electrical signals passed through neurons, as they are toxic to synapses, which are the vital gaps that connect neurons in the communication pathway. Aggregates can also trap other vital proteins, causing a loss-of-function effect in the neuron. The buildup of these proteins triggers the unfolded protein response (UPR), which, if prolonged, initiates cell death pathways. Interestingly, aggregates can also overwhelm quality control mechanisms such as proteostasis, leading to a self-enabling compound effect where the damaged proteins exacerbate the misfolding. Loss of function in the neurons can cause severe cognitive, motor, and sensory impairments.</p>
+        <p>It is important to note that due to the highly specialised nature of neurons, they are unable to replicate by cell division, making them highly vulnerable to destructive proteins as they cannot dilute the number of damaged neurons by simply producing more. It also means that any damage is essentially irreversible.</p>
+        <h3>Special case proteins: Prions.</h3>
+        <p>A key characteristic of most misfolded protein diseases is that they are not contagious from person-to-person. However, prion diseases, such as Creutzfeldt-Jakob disease (CJD), Mad Cow Disease, and Kuru, are examples of infectious diseases caused by protein misfolding. Such diseases can be passed on through the consumption of an infected organism (eg. infected cows with Mad Cow Disease, or cannibalism of humans with Kuru), rare exposure to infected medical instruments, human growth hormone, or specific tissue transplants. Prions are uniquely infectious misfolded proteins because they possess a self-propagating structure that actively catalyses the conversion of normal, healthy proteins into the pathogenic, misfolded form, unlike other misfolded proteins that are merely degraded or accumulate locally.</p>
+        <p>In this way, it is easy to see how the precise structure of a protein can be disrupted, causing irreversible and life-threatening neurological damage.</p>
+      </div>
+
+      <footer class="post-footer">
+        <a class="back-link" href="../articles.html">← Back to Articles</a>
+      </footer>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Lab Notes</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

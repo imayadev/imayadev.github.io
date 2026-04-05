@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Round and Round We Go | Lab Notes</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <nav class="top-nav">
+    <ul class="top-nav-list">
+      <li><a href="../index.html" class="top-nav-link">Home</a></li>
+      <li><a href="../about-us.html" class="top-nav-link">About Us</a></li>
+      <li><a href="../articles.html" class="top-nav-link">Articles</a></li>
+      <li><a href="../submit-your-work.html" class="top-nav-link">Submit Your Work</a></li>
+      <li><a href="../competition.html" class="top-nav-link">Competition</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <article class="post">
+
+      <header class="post-header">
+
+        <!-- Topics -->
+        <p class="post-eyebrow">Physics • Mechanics</p>
+
+        <!-- Title -->
+        <h1 class="post-title">Round and Round We Go:</h1>
+        <h2 class="post-title">An introduction to circular and simple harmonic motion</h2>
+
+        <!-- Author + Age + Category + Date -->
+        <p class="post-meta">
+          By <span class="author">Aarav Ram</span>
+          <span aria-hidden="true">·</span>
+          Age 16 (Senior Category)
+          <span aria-hidden="true">·</span>
+           <span class="school">Wallington County Grammar School</span>
+           <span aria-hidden="true">·</span>
+          <time datetime="2026-03-27">27th March 2026</time>
+        </p>
+
+      </header>
+
+      
+
+      <div class="post-body">
+
+       
+
+  <h3>Preface:</h3>
+
+  <p>In and outside of school, mechanics has always fascinated me. In my opinion it feels the most tangible in a scene where you can understand everything with elegant proofs of geometry and trigonometry. Somewhere along the way in physics you get caught up with particle physics, chasing changes of quark flavours, etc which can seem very disconnected to the real world. I think it is a key aspect of physics to understand that we can predict and understand the world with just a pen and paper. I feel this is most reflected in doing kinematic equations, SUVAT or projectile motion, etc but here I’d like to speak to you about the beauty of circular motion and its link to SMH(simple Harmonic Motion). As much as this paper will be my explanations, you can find tons of proof elsewhere which makes this topic highly accessible. I hope I can inspire you to find your own favorite part of physics, regardless if it is this topic. But please stop by, you might learn a thing or two.</p>
+
+  <h3>Circular Motion:</h3>
+
+  <p>With all my explanations, I will try my best to ground them in examples. Let's start with a Record Player and a
+Vinyl record. Imagine the player spinning at a constant rate. It has a Radius r, and therefore a circumference of
+2πr. Lets imagine a fly sitting on the very edge of this record, it travels a distance of 2πr in what ever time it
+takes to complete one rotation, let's call it T. Therefore we can derive a very simple equation for the linear
+velocity(more on this later don’t worry) which would use v = d/t giving us v = 2πr/T. Now imagine the fly
+moves down the record, towards its centre. The time for a full circle stays the same but the distance traversed is
+less as your value of r reduces. This would mean the fly’s linear velocity reduces (you can check this yourself!).
+Since the rotation speed of the record hasn't changed, but the fly’s linear velocity has, it leads us to believe that
+angular velocity is independent of radius.</p>
+
+  <p>Instead of looking at distance traveled(m) as our displacement value, let's take something that doesn't rely on
+radius. The angle with which the fly travels through in a given time interval or even one full rotation to keep
+things easy. In radians, 360° is equivalent to 2π Rad. Still using the time for a rotation to be T, we get
+⍵ = 2π/T , where ⍵ is angular velocity. This is equivalent to saying ⍵ = θ/t, for any angle and time taken
+for that specific angle. Therefore the units would be Rad s<sup>-1</sup> (even though Rad is called to be “unitless” lets just
+stick with this for now).</p>
+
+  <p>We can also relate these two equations now. Since <em>v</em> = <em>r</em>(2π/T) we can see that this is the same as <em>v</em> = ω<em>r</em>. We can also relate both to frequency of rotation as 1/T = <em>f</em> ⇒ ω = 2π<em>f</em>. These are the absolute fundamentals for circular motion.</p>
+
+<div class="float-image left">
+  <img src="../images/circular-motion1.png" alt="Circular motion diagram showing radius r, arc length x and angle delta theta">
+</div>
+
+<p><strong>Key Equations so far:</strong></p>
+
+<ul>
+  <li><em>s</em> = θ<em>r</em></li>
+  <li>ω = θ/<em>t</em></li>
+  <li><em>v</em> = 2π<em>r</em>/T</li>
+  <li>ω = 2π/T</li>
+  <li><em>v</em> = ω<em>r</em></li>
+</ul>
+
+<p>These all conclude the first part of circular motion. We next need to look at the acceleration caused by circular motion.</p>
+
+<div class="clear-float"></div>
+
+<p>Acceleration is defined as the rate of change of velocity. Now velocity is a vector quantity, which means that it has a direction and magnitude. Now we are going to confine our theory to a constant rotation speed and not variable angular velocity. This means based on our equations the linear velocity of the “fly” is always constant. This means that the only thing changing is direction so we can use our traditional theory of <em>a</em> = Δ<em>v</em>/Δ<em>t</em>. Instead we need to rely on a more elegant theory and proof.</p>
+
+<div class="float-image left">
+  <img src="../images/circular-motion3.png" alt="Circular motion velocity vectors v1 and v2 with angle delta theta">
+</div>
+
+<p>Let's consider the fly at <em>t</em> = 0 to have some linear velocity <em>v</em>. Now let's look at a small interval Δ<em>t</em> seconds later. The magnitude of the velocity stays the same, but as you can see in the diagram the direction has changed.</p>
+
+<p>Now, we can analyse these vectors separately, to go from <em>v</em><sub>1</sub> to <em>v</em><sub>2</sub>, you need some vector that has a tip to tail to the first vector. This is how we carry out a vector subtraction. So to get from <em>v</em><sub>1</sub> to <em>v</em><sub>2</sub> we need to take this path which I will denote as Δ<em>v</em> as it represents the change in velocity direction not magnitude.</p>
+
+<p>Now from our earlier equations we can see that if we have a Δ<em>t</em>, we will have a small change in angle, Δθ. (ω = θ/<em>t</em>) This means by using simple geometry we can see that the change in angle of the fly relative to the centre is equal to the angle between <em>v</em><sub>1</sub> and <em>v</em><sub>2</sub>. If this seems confusing, try to use simple angle rules of angles in triangles sum to 180° and the fact that a tangent to a circle is always at 90° to deduce this yourself.</p>
+
+<div class="clear-float"></div>
+
+<div class="float-image right">
+  <img src="../images/circular-motion4.png" alt="Vector subtraction diagram showing change in velocity delta v">
+</div>
+
+<p>Now both velocities are of the same magnitude so we can use a special case formula to find the difference between them as this is the change in velocity between them. Again a very elegant formula which isn't hard to derive. Δ<em>v</em> = 2<em>v</em>(sin(θ/2)), where <em>v</em> is the magnitude of the vectors <em>v</em><sub>1</sub> and <em>v</em><sub>2</sub>. Apply that formula here and we can see that θ is very small as it's a very small change in angle. Hence we can use small angle approximation to find that Δ<em>v</em> = 2<em>v</em>(θ/2) ⇒ Δ<em>v</em> = <em>v</em>θ. Finally we have an expression for Δ<em>t</em> as we use the equation (ω = θ/<em>t</em>) to get Δ<em>t</em> = θ/ω. Now using <em>a</em> = Δ<em>v</em>/Δ<em>t</em> we can sub in the values, giving us <em>a</em> = <em>v</em>θ/(θ/ω), which simplifies to <em>a</em> = <em>v</em>ω, and since <em>v</em> = ω<em>r</em> the more traditional equation would be <em>a</em> = <em>v</em><sup>2</sup>/<em>r</em>.</p>
+
+
+
+<p>Key equation:</p>
+
+<ul>
+  <li><em>a</em> = <em>v</em><sup>2</sup>/<em>r</em></li>
+  <li><em>a</em> = ω<sup>2</sup><em>r</em></li>
+  <li><em>a</em> = <em>v</em>ω (all just same equation with others subbed in)</li>
+</ul>
+
+<h3>Simple Harmonic Motion:</h3>
+
+  <p>SHM is defined in AQA A-level physics as an object that experiences a restoring force/acceleration
+proportional to its displacement and in the opposite direction. Which means for any displacement the
+system always tries to bring it back to its original equilibrium position (key emphasis on equilibrium
+position rather than just equilibrium because it in fact doesn't stay in equilibrium). Again let's keep
+this grounded in examples. Let's take a frictionless track with a mass that is attached to 2 springs
+either side which are both identical. The system is in equilibrium with both springs just about taut and
+still just about unextended. When we pull the mass one way say a displacement A away from its
+equilibrium point the force on the mass the instant we let go is pushing from the compressed spring
+F = kA and pulling from the extended one F = kA which gives a total of 2kA. These values are
+mostly arbitrary right now, but I want to observe how they change. Force is directly proportional to
+acceleration which means I am really just checking how acceleration behaves.</p>
+
+<p>Now I will tell you that this mass after it is released will bounce back and forth forever if there is no
+energy loss, I will give you that information. But let’s see why. At our max displacement, the
+acceleration is also at its max, since it is proportional to displacement if we get any closer the
+acceleration reduces. At x = 0 the acceleration is 0 which makes sense its back in the middle there's
+no resultant force acting on it. However, it still has a velocity! This means it shoots off in the negative
+displacement where the acceleration increases to a maximum then back to 0 when it gets back. Let’s
+give this oscillation a time period of T. At t = 0 We have max displacement and acceleration. At
+t = T/4 We have 0 displacement and 0 acceleration. At t = T/2 we again return to a max but in the
+opposite direction. And 0 again at t = 3T/4 and max at t = T. This is shown in many great youtube
+videos where they specifically map out the exact values as a function of time which makes it a lot
+more digestible. But you can see that this follows a Cosine graph!</p>
+
+  <p>x = Acos(ωt)<br>
+  dx/dt v = − Aωsin(ωt)<br>
+  dv/dt a = − Aω²cos(ωt)</p>
+
+  <p>A is the starting max displacement of the mass and each next line is just the derivative with respect to
+time but the intriguing value here is that ω. Now trinometric graphs can be manipulated and the
+coefficient in front of the input tells you how many waves cycles fit between 0 and 2π. In the context
+of time its 0 and 2π seconds and lets just say I have that coefficient be 2π, just for now. That means
+theres 2π waves every 2π seconds, or in layman's terms one wave every one second. Now if 20 waves
+per second, I just need 2π × 20. This is actually just ω = 2πf which we proved earlier since 20 waves
+a second is the definition of the frequency. Therefore there is a magical link to circular motion (I promise we’ll
+get there).p>
+
+  <p>If I bring you back to the fly example. But this time you're not looking at it with a bird's eye view. You're
+looking into the horizon so to speak. You'll see the Fly move the right at max displacement and then move back
+to the middle then to the left at max then back and forth. This is that awesome link between these topics! They
+are essentially the same thing. If you love trigonometry, I am sure you've seen a clip of the unit circle being used
+to define the sine and the cosine graphs where sine is the value of x as you move through an angle and cosine is
+the value of y.</p>
+
+  <h3>Conclusion:</h3>
+
+  <p>I could very honestly continue writing about this indefinitely. Something about these synoptic links seem so
+intriguing. The idea that someone can study physics and not celebrate these awesome tiny details between topics
+seems very odd to me. I hope you are able to find more links like this when you're studying any subject in the
+future and I really appreciate you taking the time to read about something that interests me. There are more
+similarities between topics than you think. Eventually, you'll find yourself having gone full circle.</p>
+
+</div>
+
+
+      <footer class="post-footer">
+        <a class="back-link" href="../articles.html">← Back to Articles</a>
+      </footer>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Lab Notes</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
